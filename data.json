@@ -1,0 +1,26 @@
+{
+  "about": {
+    "title": "About Apeer",
+    "description": "Apeer is great"
+  },
+  "index": {
+    "title": "Apeer",
+    "description": "A smart app for attorneys. Quickly assign court appearances to trusted peers."
+  },
+  "contact": {
+    "title": "Contact Apeer",
+    "description": "A smart app for attorneys. Quickly assign court appearances to trusted peers."
+  },
+  "download": {
+    "title": "Download Apeer",
+    "description": "A smart app for attorneys. Quickly assign court appearances to trusted peers."
+  },
+  "faq": {
+    "title": "Apeer FAQs",
+    "description": "A smart app for attorneys. Quickly assign court appearances to trusted peers."
+  },
+  "legal": {
+    "title": "Apeer Legal",
+    "description": "A smart app for attorneys. Quickly assign court appearances to trusted peers."
+  }
+}

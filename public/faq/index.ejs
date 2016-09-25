@@ -1,0 +1,31 @@
+<div class="block block-bordered-lg top-buffer">
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6 text-left m-b-lg">
+			<h2 class="statcard-number block-title">FAQ</h2>
+		</div>
+	</div>
+	<div class="row">
+
+		<% for(var i in public.faq._data){ %>
+			<div class="panel-group" id="<%- public.faq._data[i].id %>" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default"role="tab">
+					<div class="panel-heading"  id="h<%= i %>" role="button" data-toggle="collapse" data-parent="#<%- public.faq._data[i].id %>" href="#c<%= i %>" aria-expanded="false" aria-controls="c<%= i %>">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold"><%- public.faq._data[i].question %></strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c<%= i %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h<%= i %>" aria-expanded="false">
+						<div class="panel-body">
+							<%- public.faq._data[i].answer %>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		<% }; %>
+
+	</div>
+</div>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A smart app for attorneys. Quickly assign court appearances to trusted peers.">
+
+		<title>Apeer</title>
+
+		<!--FB OG-->
+		<meta property="og:title" content="Apeer" />
+		<meta property="og:image" content="https://www.apeer.co/assets/img/social.jpg" />
+		<meta property="og:type" content="product" />
+		<meta property="og:url" content="https://www.apeer.co/" />
+		<meta property="og:site_name" content="A smart app for attorneys. Quickly assign court appearances to trusted peers." />
+
+		<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+		<link href="/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="/assets/css/custom.css?v=1" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/waypoints.min.js"></script>
+		<script src="/assets/js/toolkit.js"></script>
+		<script src="/assets/js/application.js?v=1"></script>
+	</head>
+
+
+<body>
+		
+<div class="blocker">
+	<div id="coming-soon"><h2 class="statcard-number block-title">Available June 2016</h2></div>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top navbar-padded text-uppercase app-navbar">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed p-x-0" data-toggle="collapse" data-target="#navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="/">
+		<!--<span><img src="/assets/img/logo_2_dark.jpg"></span>-->
+		<span><img src="/assets/img/logo-approval.png"></span>
+	  </a>
+	</div>
+	<div class="navbar-collapse collapse" id="navbar-collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	  	<li>
+		  <a href="/download">Download</a>
+		</li>
+		<li >
+		  <a href="/faq">FAQ</a>
+		</li>
+	  </ul>
+	</div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+		<div class="block block-bordered-lg top-buffer">
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6 text-left m-b-lg">
+			<h2 class="statcard-number block-title">FAQ</h2>
+		</div>
+	</div>
+	<div class="row">
+
+		
+			<div class="panel-group" id="what-is-Apeer" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h0" role="button" data-toggle="collapse" data-parent="#what-is-Apeer" href="#c0" aria-expanded="false" aria-controls="c0">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What is Apeer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h0" aria-expanded="false">
+						<div class="panel-body">
+							Apeer is a mobile app for attorneys to assign their court appearances to experienced appearance attorneys (“peers”).
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="is-Apeer-available" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h1" role="button" data-toggle="collapse" data-parent="#is-Apeer-available" href="#c1" aria-expanded="false" aria-controls="c1">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Is Apeer available in my city?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h1" aria-expanded="false">
+						<div class="panel-body">
+							Apeer is currently available for Los Angeles and will be released in San Francisco next with other major US metropolitans shortly thereafter. Add your email address here to be notified when Apeer is available in your area. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="signup" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h2" role="button" data-toggle="collapse" data-parent="#signup" href="#c2" aria-expanded="false" aria-controls="c2">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How do I sign up?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h2" aria-expanded="false">
+						<div class="panel-body">
+							Apeer is available on the Apple App Store (for iPhone) and Google Play (for Android). Simply search the store for “Apeer for Attorneys” and download the app. Signing up is quick, simple and free.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="what-do-you-mean" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h3" role="button" data-toggle="collapse" data-parent="#what-do-you-mean" href="#c3" aria-expanded="false" aria-controls="c3">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What do you mean by “principal” and “peer”?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h3" aria-expanded="false">
+						<div class="panel-body">
+							We refer to an attorney of record as a “principal” and their appearance attorney as a “peer”.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="how-does-Apeer-work" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h4" role="button" data-toggle="collapse" data-parent="#how-does-Apeer-work" href="#c4" aria-expanded="false" aria-controls="c4">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How does Apeer work?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h4" aria-expanded="false">
+						<div class="panel-body">
+							1. REQUEST AND ASSIGN<br>An principal seeking coverage makes a request by submitting basic appearance details in-app. Once the principal has completed the request, reviewed the appearance fee, and confirmed, Apeer identifies the best available peers and and sends a notification. Peers are provided the information necessary to perform a conflicts check. The first peer to accept is then assigned the appearance and both attorneys are able to chat and share files through the app. <br><br>2. COMMUNICATE<br>The principal is responsible for providing the information and documentation necessary for the peer to successfully make the appearance. Likewise, the peer is responsible to prepare, arrive timely, and handle the matter professionally. <br><br>3. REVIEW<br>The peer submits a final report along with any related documentation on the same day as the appearance. The principal receives a receipt and their preferred payment method is automatically debited the appearance fee at that time. Both attorneys have the opportunity to indicate each other's performance to ensure the highest quality of service is maintained through Apeer.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="how-do-I-request" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h5" role="button" data-toggle="collapse" data-parent="#how-do-I-request" href="#c5" aria-expanded="false" aria-controls="c5">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How do I request a peer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h5" aria-expanded="false">
+						<div class="panel-body">
+							Tap the “Add Appearance” button in the app. Provide the requested case details, review the fee, and submit. You will receive a notification when a peer has accepted your appearance.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="can-I-make" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h6" role="button" data-toggle="collapse" data-parent="#can-I-make" href="#c6" aria-expanded="false" aria-controls="c6">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Can I make appearances through Apeer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h6" aria-expanded="false">
+						<div class="panel-body">
+							Yes. To determine if you are qualified tap the application button under your profile tab. You will receive an email that will assist you through the vetting process.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="can-I-assign-phone-or-web" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h7" role="button" data-toggle="collapse" data-parent="#can-I-assign-phone-or-web" href="#c7" aria-expanded="false" aria-controls="c7">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Can I assign an appearance by phone or web?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h7" aria-expanded="false">
+						<div class="panel-body">
+							Assigning appearances is currently done exclusively through the app on your iPhone or Android device. We plan to add browser functionality soon so that you can add and manage appearances on your laptop, desktop, or tablet. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="can-I-assign-day-of" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h8" role="button" data-toggle="collapse" data-parent="#can-I-assign-day-of" href="#c8" aria-expanded="false" aria-controls="c8">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Can I assign an appearance on the day of the hearing?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h8" aria-expanded="false">
+						<div class="panel-body">
+							You can submit your request at anytime up until the hearing. However, the closer to the time of the hearing your request is made the less likely a peer will be available to accept your request.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="what-types-of-hearings" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h9" role="button" data-toggle="collapse" data-parent="#what-types-of-hearings" href="#c9" aria-expanded="false" aria-controls="c9">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What types of hearings can I assign through Apeer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h9" aria-expanded="false">
+						<div class="panel-body">
+							You can currently assign basic hearings such as an arraignment, continuance request, case management conference, etc. More complex appearances will be added in the near future.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="request-specific-attorney" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h10" role="button" data-toggle="collapse" data-parent="#request-specific-attorney" href="#c10" aria-expanded="false" aria-controls="c10">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Can I request a specific attorney?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h10" aria-expanded="false">
+						<div class="panel-body">
+							Not at this time. Currently, Apeer connects your appearance request directly to an ideal peer qualified and available to cover your appearance. We are planning a future feature that will allow you to add colleagues to a preferred network and choose who will be notified when you request coverage.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="what-does-it-cost" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h11" role="button" data-toggle="collapse" data-parent="#what-does-it-cost" href="#c11" aria-expanded="false" aria-controls="c11">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What does it cost?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h11" aria-expanded="false">
+						<div class="panel-body">
+							Membership is free. You are only charged for an appearance you request. The base appearance fee is currently $95. Appearance complexity and courthouse location (for related parking fees and/or courthouse remoteness) are factors that may increase the rate. An itemized breakdown of the appearance fee is provided for your review and confirmation before the appearance is assigned so you will always know the exact cost before committing.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="how-is-payment-handled" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h12" role="button" data-toggle="collapse" data-parent="#how-is-payment-handled" href="#c12" aria-expanded="false" aria-controls="c12">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How is payment handled?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h12" aria-expanded="false">
+						<div class="panel-body">
+							Before assigning your first appearance you will be asked to add a credit or debit card as your preferred method of payment. This card will be saved securely for your future assignments. You can update and manage your method of payment under your profile tab. Your chosen card will be charged when your peer submits the final appearance report. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="cancel-assigned" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h13" role="button" data-toggle="collapse" data-parent="#cancel-assigned" href="#c13" aria-expanded="false" aria-controls="c13">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What if I wish to cancel an assigned appearance?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h13" aria-expanded="false">
+						<div class="panel-body">
+							You can cancel your assignment at any time. To discourage abuse and protect peers who have dedicated their time and schedule to preparing for and making appearances the following policy governs cancellation fees:<li>Cancellation before a peer has been assigned: No fee.</li><li>Cancellation after a peer has been assigned: $25 fee.</li><li>Cancellation within 48 hours of schedule hearing (and peer assigned): 50% of appearance fee will be charged.</li><li>Cancellation within 24 hours of schedule hearing (and peer assigned): The full appearance fee will be charged.</li>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="peers-qualified-vetted" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h14" role="button" data-toggle="collapse" data-parent="#peers-qualified-vetted" href="#c14" aria-expanded="false" aria-controls="c14">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Are peers qualified and vetted?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h14" aria-expanded="false">
+						<div class="panel-body">
+							Yes. Every attorney on Apeer is verified to be in active and good standing with the CA bar. Attorneys who wish to accept appearances through Apeer must apply and undergo a vetting process that determines their experience, practice areas, and limitations. Attorneys who are approved as peers are only able to accept appearances that match their practice areas. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="after-appearance-assigned" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h15" role="button" data-toggle="collapse" data-parent="#after-appearance-assigned" href="#c15" aria-expanded="false" aria-controls="c15">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Do I need to do anything after my appearance is assigned?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h15" aria-expanded="false">
+						<div class="panel-body">
+							Once you receive a notification that a peer has been assigned you can chat with them and share files in-app. Please ensure they have all information, materials and instructions necessary to successfully handle the appearance.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="peer-performance" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h16" role="button" data-toggle="collapse" data-parent="#peer-performance" href="#c16" aria-expanded="false" aria-controls="c16">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How do I know my peer will actually perform the job?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h16" aria-expanded="false">
+						<div class="panel-body">
+							For the scope of the assigned appearance, your peer is subject to the same rules of professional conduct that apply to any attorney-client relationship. Only peers with excellent track records are allowed to accept appearances through Apeer. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="emergency" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h17" role="button" data-toggle="collapse" data-parent="#emergency" href="#c17" aria-expanded="false" aria-controls="c17">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What if an emergency prevents my peer from making the appearance?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h17" aria-expanded="false">
+						<div class="panel-body">
+							In an emergency peers are instructed to notify Apeer Support. We will work diligently to replace them immediately. In the event that it is impossible to gain a replacement in time, the peer is responsible for any fees or actual costs associated with their failure to appear and is subject to removal from the Apeer platform.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="something-went-wrong" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h18" role="button" data-toggle="collapse" data-parent="#something-went-wrong" href="#c18" aria-expanded="false" aria-controls="c18">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What if something goes wrong with my appearance?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h18" aria-expanded="false">
+						<div class="panel-body">
+							If there is any issue with the appearance and/or report you should notify Apeer Support immediately and we will investigate your concerns. Responsibility for the appearance rests solely between you and your peer, however, we will do whatever we can to ensure an exceptional experience.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="peer-comminication" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h19" role="button" data-toggle="collapse" data-parent="#peer-comminication" href="#c19" aria-expanded="false" aria-controls="c19">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How do I communicate with my peer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h19" aria-expanded="false">
+						<div class="panel-body">
+							SMS chat is provided in the app to facilitate real-time communication between attorneys.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="sending-documents" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h20" role="button" data-toggle="collapse" data-parent="#sending-documents" href="#c20" aria-expanded="false" aria-controls="c20">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How can I send documents to my peer?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h20" aria-expanded="false">
+						<div class="panel-body">
+							You can share files in-app. There are four options: (1) Snap a photo to be immediately uploaded. This feature is great for quick notes or information you have laying around. (2) Apeer can link to your Dropbox, Box, or Google Drive accounts so you can share files directly from the cloud. (3) You can also paste a link to an online file and Apeer will upload the document directly into your appearance details. (4) Lastly, if none of the other options suffice you may ask your peer for their email address and share the file by email. 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="secure-and-ethics" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h21" role="button" data-toggle="collapse" data-parent="#secure-and-ethics" href="#c21" aria-expanded="false" aria-controls="c21">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Is it secure and ethical to send confidential and privileged information through the app?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h21" aria-expanded="false">
+						<div class="panel-body">
+							Yes, for two reasons:<br><li>The California Rules of Professional Conduct permits a lawyer to provide confidential  and privileged information to members of a lawyer’s staff who are involved in the client’s representation when made to further the client’s interests in a particular matter. An appearance attorney is considered a member of a lawyer’s staff for the scope of the appearance. (See, e.g., The State Bar of California Standing Committee on Professional Responsibility and Conduct Formal Opinion No. 2004-165)</li><li>Apeer encrypts all in-app communication. No one aside from yourself and your peer has access to it.</li>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="file-documents-pay-fees" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h22" role="button" data-toggle="collapse" data-parent="#file-documents-pay-fees" href="#c22" aria-expanded="false" aria-controls="c22">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What if I need my peer to file documents with the court or pay fees?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h22" aria-expanded="false">
+						<div class="panel-body">
+							Like any transaction between attorneys handling a matter together simply communicate your needs and provide them with the ability to deliver the results you desire. If fees must be paid be sure you assign the appearance enough time in advance to allow the mailing or delivery of a check to the peer before the appearance.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="peer-accept-discovery" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h23" role="button" data-toggle="collapse" data-parent="#peer-accept-discovery" href="#c23" aria-expanded="false" aria-controls="c23">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Can my peer accept discovery or other documentation and deliver them to me?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h23" aria-expanded="false">
+						<div class="panel-body">
+							Yes. Be sure to coordinate with your peer through attorney chat in Apeer beforehand and make arrangements. Your peer can transfer scans of the documents securely through Apeer or mail originals if necessary.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="appearance-results" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h24" role="button" data-toggle="collapse" data-parent="#appearance-results" href="#c24" aria-expanded="false" aria-controls="c24">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">How and when will I get the appearance results?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h24" aria-expanded="false">
+						<div class="panel-body">
+							Shortly following the appearance, your peer will submit an appearance report. You will receive a push notification and/or email (depending on your preferences) as soon as the report is available. The peer will upload any related documents. Reports are guaranteed the same day as the appearance.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="peer-principal-reviews" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h25" role="button" data-toggle="collapse" data-parent="#peer-principal-reviews" href="#c25" aria-expanded="false" aria-controls="c25">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Are there peer (and principal) reviews?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h25" aria-expanded="false">
+						<div class="panel-body">
+							Yes. After an appearance is completed both attorneys rate each other's performance by tapping one of three options: “poor”, “good”, or “great”. There is also the opportunity to include additional feedback. Submitting a “poor” rating effectively initiates our dispute resolution process. Apeer Support will investigate the matter to determine what action, if any, is necessary to address concerns. To maintain trust and professionalism, only highly-rated attorneys are permitted to exchange appearances through Apeer.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="records-after-completion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h26" role="button" data-toggle="collapse" data-parent="#records-after-completion" href="#c26" aria-expanded="false" aria-controls="c26">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">What happens to my records after the appearance is completed?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h26" aria-expanded="false">
+						<div class="panel-body">
+							Your appearance details, attorney messages, documents, and appearance report are all archived in case history for your future reference until one year after the appearance. One year after the appearance date the record is automatically deleted permanently. You may also delete the record at any time before that.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+			<div class="panel-group" id="is-Apeer-a-law-firm" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default" role="tab">
+					<div class="panel-heading" id="h27" role="button" data-toggle="collapse" data-parent="#is-Apeer-a-law-firm" href="#c27" aria-expanded="false" aria-controls="c27">
+						<h4 class="panel-title">
+							<div class="collapsed">
+								<strong class="gold">Is Apeer a law firm?</strong>
+							</div>
+						</h4>
+					</div>
+					<div id="c27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="h27" aria-expanded="false">
+						<div class="panel-body">
+							No. Apeer is a mobile platform that connects attorneys and provides them with innovative technology to exchange, manage, and streamline court appearances. Apeer also handles the administrative and transactional work so attorneys can focus on being attorneys. We are dedicated to modernizing the legal practice and making lawyer life a little easier.
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+
+	</div>
+</div></div>
+		<div class="block app-block-footer">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Cities</h6></li>
+          <li>Los Angeles</li>
+          <li>San Francisco (soon)</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Legal</h6></li>
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Support</h6></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b">
+         <ul class="list-unstyled list-spaced">
+          <h6 class="text-uppercase">&nbsp;</h6>
+            <li>
+              <span class="a icon facebook">
+                <a href="http://facebook.com/apeerco" target="_blank">
+                  <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+                  <path d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2V7.475c0-2.164,1.212-3.684,3.766-3.684l1.803,0.002v2.605
+                    h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"/>
+                  </svg>
+                </a>
+              </span>
+              <span class="a icon twitter">
+                <a href="https://twitter.com/apeerco" target="_blank">
+                  <svg version="1.1" id="Twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+                  <path d="M17.316,6.246c0.008,0.162,0.011,0.326,0.011,0.488c0,4.99-3.797,10.742-10.74,10.742c-2.133,0-4.116-0.625-5.787-1.697
+                    c0.296,0.035,0.596,0.053,0.9,0.053c1.77,0,3.397-0.604,4.688-1.615c-1.651-0.031-3.046-1.121-3.526-2.621
+                    c0.23,0.043,0.467,0.066,0.71,0.066c0.345,0,0.679-0.045,0.995-0.131c-1.727-0.348-3.028-1.873-3.028-3.703c0-0.016,0-0.031,0-0.047
+                    c0.509,0.283,1.092,0.453,1.71,0.473c-1.013-0.678-1.68-1.832-1.68-3.143c0-0.691,0.186-1.34,0.512-1.898
+                    C3.942,5.498,6.725,7,9.862,7.158C9.798,6.881,9.765,6.594,9.765,6.297c0-2.084,1.689-3.773,3.774-3.773
+                    c1.086,0,2.067,0.457,2.756,1.191c0.859-0.17,1.667-0.484,2.397-0.916c-0.282,0.881-0.881,1.621-1.66,2.088
+                    c0.764-0.092,1.49-0.293,2.168-0.594C18.694,5.051,18.054,5.715,17.316,6.246z"/>
+                  </svg>
+                </a>
+              </span>
+              <span class="a icon linkedin">
+                <a href="https://www.linkedin.com/company/9506826" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;" xml:space="preserve">
+                  <g>
+                  <path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707   c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21   v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824   C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463   c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z    M5.477,420.56h92.184v-277.32H5.477V420.56z" />
+                  </svg>
+                </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div class="row">
+      © 2016 Apeer, Inc.
+    </div>
+
+  </div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77914465-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
