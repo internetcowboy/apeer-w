@@ -13,6 +13,7 @@ body {
 }
 .block {
 	overflow: hidden;
+	padding:80px 30px;
 }
 .gold {
 	color:#b6ab88 !important;
