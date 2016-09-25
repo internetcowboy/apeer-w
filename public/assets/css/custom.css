@@ -43,7 +43,7 @@ body {
 
 .lock-screen {
 	top: 25%;
-	z-index: 2;
+	z-index: 11;
 }
 
 .lock-screen:before {
@@ -107,15 +107,23 @@ body {
 	z-index: 0;
 	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
-	transition: top 0.5s ease;
+	transition: all 0.5s ease;
 }
 
+#scroll_lock { z-index:10; }
+#scroll_messaging { z-index:9; }
+#scroll_results { z-index:8; }
+#scroll_security { z-index:7; }
+#scroll_ethics { z-index:6; }
+
 .scroll-screen-up {
-	top: -25%;
+	top: -27%;
+	opacity: 1;
 }
 
 .scroll-screen-down {
 	top: 80%;
+	opacity: 0;
 }
 
 .scroll-side {
