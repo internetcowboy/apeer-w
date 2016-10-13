@@ -1,13 +1,12 @@
 
 // Use waypoints to swap the screen on the phone
-var _cellMovement=0;
 $(function() {
 	var waypoints = [
-		{ id : 'messaging', waypoint : {} },
-		{ id: 'results', waypoint : {} },
-		//{ id: 'accountability', waypoint : {} },
+		{ id : 'assignment', waypoint : {} },
+		{ id: 'communication', waypoint : {} },
 		{ id: 'security', waypoint : {} },
-		{ id: 'ethics', waypoint : {} }
+        { id: 'appearance', waypoint : {} },
+		
 	];
 
 	for(var i=0; i < waypoints.length; i++) { 
@@ -27,74 +26,14 @@ $(function() {
 					$("#"+name).addClass('scroll-screen-down');
 				}
 			},
-			offset: '50%'
+			offset: 100 
 		});
 	}
 
+    $('.learn-cta a.btn').on('click', function(e) {
+        $(this).parent().siblings('.poster.lead').slideToggle('fast');
+        $(this).hide();
+
+    });
 });
 
-
-$(function() {
-	site.init();
-});
-
-var site = {
-	init: function(){
-		this.initfaq(location.hash);
-		this.initdownload();
-		this.initform();
-        this.initToggles();
-	},
-    initToggles: function() {
-        $('.btn').on('click', function(e) {
-            e.preventDefault();
-            var $this = $(this);
-            var $collapse = $this.closest('.info-wrap').find('.collapse');
-            $collapse.collapse('toggle');
-            $this.hide();
-        });
-    },
-    initfaq: function(_hash) {
-    	var self=this;
-    	$(window).bind( 'hashchange', function(e) {
-    		self.hashchange();
-    	});
-        $('.panel-group').unbind('click').bind('click',function(){
-        	location.hash = $(this).attr('id');
-        });
-        if (_hash.indexOf("#")>-1){
-    		var _el=_hash.split("#").join("");
-    		$('#'+_el+' .panel-heading, #'+_el+' .panel-collapse').attr('aria-expanded','true').addClass('in');
-    		setTimeout(function(){self.hashchange();},1);
-    	}
-    },
-    hashchange: function() {
-    	//due to fixed header
-    	$(window).scrollTop($(window).scrollTop()-100);
-    },
-    initdownload: function(_hash) {
-    	setTimeout(function(){$('#download').fadeIn(300);},1200);
-        /*$('.android').unbind('click').bind('click',function(e){
-        	e.preventDefault();
-        	$('.blocker').fadeIn(300,function(){
-        		$('#coming-soon').addClass('show');
-        		setTimeout(function(){
-        			$('#coming-soon').removeClass('show');
-        			$('.blocker').fadeOut(300);
-        		},2000);
-        	});
-        });*/
-    },
-    initform: function(_hash) {
-        $('.btn-primary').unbind('click').bind('click',function(e){
-        	e.preventDefault();
-        	$('#home-form').addClass("hide");
-        	var dataObj = {
-        		"email": $('#email-address').val()
-        	}
-			$.post('https://api.apeer.co/api/user/contactform', dataObj, function(data) {
-        		$('#thanks').addClass("show");
-	        });
-        });
-    }
-};
