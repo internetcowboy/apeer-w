@@ -359,10 +359,19 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family: "Karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   line-height: 1.2;
   color: inherit;
+}
+
+h3, .h3 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  color: inherit; 
 }
 h1 small,
 h2 small,
@@ -3142,6 +3151,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  text-align: right;
 }
 .nav > li {
   position: relative;
@@ -3486,7 +3496,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7px -10px;
+  margin: 20px -10px 0px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -8891,4 +8901,5 @@ h6,
   margin-bottom: 5px;
   color: #f2f2f2;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
