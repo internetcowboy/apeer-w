@@ -8,8 +8,8 @@
 		"answer" : "Apeer is currently available in Los Angeles and will soon be released in San Francisco and other US cities. Add your email address here to be notified when Apeer arrives in your area."
 	},
 	{
-		"question" : "Is Apeer a law firm?",
-		"answer" : "No. Apeer is a platform that connects attorneys and empowers them with innovative technology to exchange, manage, and streamline court appearances. Apeer also handles the administrative and transactional work - like document management and payment processing - so attorneys can focus on being attorneys."
+		"question" : "Is Apeer a law firm or lawyer referral service?",
+		"answer" : "No. Apeer is a platform that connects attorneys and empowers them with innovative technology to exchange, manage, and streamline court appearances. Apeer also handles the administrative and transactional work - like document management and payment processing - so attorneys can focus on being attorneys.  Apeer is not a law firm or lawyer referral service and does not practice law, provide legal services, make appearances in court, or employ any individuals to make appearances in court."
 	},
 	{
 		"question" : "How do I sign up?",
@@ -17,15 +17,15 @@
 	},
 	{
 		"question" : "What do you mean by “Principal” and “Peer”?",
-		"answer" : "We refer to an attorney of record as a “Principal” and their appearance attorney as a “Peer”."
+		"answer" : "We refer to an attorney of record as a “Principal” and his/her appearance attorney as a “Peer”."
 	},
 	{
 		"question" : "Are Peers vetted?",
-		"answer" : "Yes. Attorneys must meet certain standards to accept appearances through Apeer. These vetting requirements include an unblemished State Bar record in good and active standing and more than one year of solid court experience in their respective practice areas. The truth is that our Peers have been practicing excellent law for a long time. Our review and feedback process promotes this ongoing commitment to performance. Accountability is at the heart of our work."
+		"answer" : "Yes. Attorneys must meet certain standards to accept appearances through Apeer. These vetting requirements include an unblemished State Bar record in good and active standing and more than one year of court experience in their respective practice areas. Peers generally have been practicing excellent law for a long time. Our review and feedback process promotes this ongoing commitment to performance. Accountability is at the heart of our work."
 	},
 	{
 		"question" : "How does Apeer work?",
-		"answer" : "<b>1. ASSIGN</b><br>To request coverage a Principal taps “Assign” and submits the requested appearance details. Once the Principal reviews and approves the appearance cost, Apeer notifies qualified Peers and provides them the information necessary to perform a conflicts check (e.g. the identities of the client and opposing parties).  As soon as a Peer accepts the request the Principal is notified and the attorneys are connected.<br><br><b>2. CONNECT</b><br>The Principal is responsible for providing the information and documentation necessary for the Peer to successfully complete the appearance. Likewise, the Peer is responsible to prepare, present, and handle the matter professionally. Apeer provides all of the functionality you would expect - like chat and file sharing - in order to collaborate and complete the matter.<br><br><b>3. REVIEW</b><br>The Peer submits a summary report and any related documentation the day of the appearance. Thereafter, the Principal’s payment card is charged and the appearance is archived for future reference. Each attorney is asked to rate the other to ensure the highest quality of service across Apeer. "
+		"answer" : "<b>1. ASSIGN</b><br>To request coverage, a Principal taps “Assign” and submits the requested appearance details. Once the Principal reviews and approves the appearance cost, Apeer notifies qualified Peers and provides them the information necessary to perform a conflicts check (e.g. the identities of the client and opposing parties).  As soon as a Peer accepts the request the Principal is notified and the attorneys are connected.<br><br><b>2. CONNECT</b><br>The Principal is responsible for providing the information and documentation necessary for the Peer to successfully complete the appearance. Likewise, the Peer is responsible to prepare, present, and handle the matter professionally. Apeer provides all of the functionality you would expect - like chat and file sharing - in order to collaborate and complete the matter, but does not direct or control the services requested or provided by Principal and Peer.<br><br><b>3. REVIEW</b><br>The Peer submits a summary report and any related documentation the day of the appearance. Thereafter, the Principal’s payment card is charged and the appearance is archived for future reference. Each attorney is asked to rate the other to ensure the highest quality of service across Apeer."
 	},
 	{
 		"question" : "Can I also make appearances?",
@@ -37,11 +37,11 @@
 	},
 	{
 		"question" : "Can I assign an appearance on the same day as the hearing?",
-		"answer" : "You can submit your request anytime up until shortly before the hearing. However, the closer to the time of the hearing your request is made the less likely a Peer will be available to accept your request and be able to get to court in time, with the necessary information."
+		"answer" : "You can submit your request anytime up until shortly before the hearing. However, the closer to the time of the hearing your request is made, the less likely a Peer will be available to accept your request and be able to get to court in time, with the necessary information."
 	},
 	{
 		"question" : "Can I request a specific attorney?",
-		"answer" : "Not at this time. Apeer is designed to get your appearances covered fast with the power of talent at the tips of your fingers. <br><br>We are working on a future feature that will allow you to add colleagues to a private network and choose who may accept your request."
+		"answer" : "Not at this time. Apeer is designed to get your appearances covered fast with the power of talent at the tips of your fingers.<br><br>We are working on a future feature that will allow you to add colleagues to a private network and choose who may accept your request."
 	},
 	{
 		"question" : "What types of hearings can I assign through Apeer?",
@@ -57,11 +57,11 @@
 	},
 	{
 		"question" : "What if I wish to cancel an assigned appearance?",
-		"answer" : "You can cancel your assignment at any time. There is no fee to cancel before a Peer accepts your request. <br><br>Cancellation fee after a Peer has been assigned: <br>Before 48 hours of hearing: $25<br>Within 48 hours of hearing: 50% of appearance cost<br>Within 24 hours of hearing: 100% of appearance cost"
+		"answer" : "You can cancel your assignment at any time. There is no fee to cancel before a Peer accepts your request.<br><br>Cancellation fee after a Peer has been assigned: <br>Before 48 hours of hearing: $25<br>Within 48 hours of hearing: 50% of appearance cost<br>Within 24 hours of hearing: 100% of appearance cost"
 	},
 	{
 		"question" : "What should I do after a Peer has been assigned my appearance?",
-		"answer" : "Once you receive a notification that a Peer has been assigned you can chat with them and share files in-app. It is up to you to ensure they have all instructions, information, and documentation necessary to successfully and competently handle the appearance."
+		"answer" : "Once you receive a notification that a Peer has been assigned, you can chat with them and share files in-app. It is up to you to ensure they have all instructions, information, and documentation necessary to successfully and competently handle the appearance."
 	},
 	{
 		"question" : "How do I communicate with my Peer?",
@@ -69,11 +69,11 @@
 	},
 	{
 		"question" : "Can I share documents with my Peer?",
-		"answer" : "Yes. Snap and send a photo of notes or information you want to share on the fly. Attach any file directly from your Dropbox (Android users can access additional sources). Other documents can be emailed to your Peer."
+		"answer" : "Yes. Snap and send a photo of notes or information you want to share on the fly. Attach any file directly from your Dropbox. Other documents can be emailed to your Peer."
 	},
 	{
 		"question" : "Can my Peer accept service of discovery or other documentation and deliver the originals to me?",
-		"answer" : "Yes. To receive original documents simply provide your Peer with the request and the appropriate mailing address."
+		"answer" : "Yes. To receive original documents, simply provide your Peer with the request and the appropriate mailing address."
 	},
 	{
 		"question" : "When do I receive an appearance report?",
@@ -89,7 +89,7 @@
 	},
 	{
 		"question" : "What if there is an issue with my appearance?",
-		"answer" : "If there is a problem with the appearance you should notify Apeer Support and we will investigate your concerns. Responsibility for the appearance rests solely between you and your Peer, however, we will do whatever we can to ensure an exceptional experience."
+		"answer" : "If there is a problem with the appearance, you should notify Apeer Support and we will investigate your concerns. Responsibility for the appearance rests solely between you and your Peer, however, we will do whatever we can to ensure an exceptional experience."
 	},
 	{
 		"question" : "Are there Peer (and Principal) reviews?",
