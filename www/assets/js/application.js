@@ -2,6 +2,7 @@
 // Use waypoints to swap the screen on the phone
 $(function() {
     var waypoints = [
+        { id : 'lock', waypoint : {} },
         { id : 'assignment', waypoint : {} },
         { id: 'communication', waypoint : {} },
         { id: 'security', waypoint : {} },
@@ -17,23 +18,21 @@ $(function() {
         waypoints[i].waypoint = new Waypoint({
             element: document.getElementById(waypoint_id),
             handler: function(direction) {
+                $(".scroll-screen img").removeClass('show');
                 var name = "scroll_" + $(this.element).attr('id');
-                if(direction == "down") {
-                    $("#"+name).removeClass('scroll-screen-down');
-                    $("#"+name).prev().addClass('scroll-screen-up');
-                } else {
-                    $("#"+name).prev().removeClass('scroll-screen-up');
-                    $("#"+name).addClass('scroll-screen-down');
-                }
+                $("#"+name+" img").addClass('show');
             },
             offset: 100 
         });
     }
 
     $('.learn-cta a.btn').on('click', function(e) {
-        $(this).parent().siblings('.poster.lead').slideToggle('fast');
+        $(this).parent().siblings('.poster.lead').slideToggle(1);
         $(this).hide();
 
+        $('html,body').animate({
+           scrollTop: $(this).parent().siblings('.poster.lead').offset().top - $(this).parent().siblings('.poster.lead').outerHeight() - 250
+        });
     });
 });
 

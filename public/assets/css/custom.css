@@ -115,29 +115,20 @@ body {
 }
 
 .scroll-screen {
-	top: 28%;
-	z-index: 0;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
-	transition: all 0.3s ease;
+	top:28.5%;	
 }
-
-#scroll_lock { z-index:10; }
-#scroll_messaging { z-index:9; }
-#scroll_results { z-index:8; }
-#scroll_security { z-index:7; }
-#scroll_ethics { z-index:6; }
-
-.scroll-screen-up {
-	top: -27%;
-	opacity: 1;
-}
-
-.scroll-screen-down {
-	top: 80%;
+.scroll-screen img {
 	opacity: 0;
-}
+    -webkit-transition: All 0.3s linear;
+	       -moz-transition: All 0.3s linear;
+	        -ms-transition: All 0.3s linear;
+	         -o-transition: All 0.3s linear;
+	            transition: All 0.3s linear;
 
+}
+	.scroll-screen img.show {
+		opacity: 1;
+	}
 
 .scroll-screen .btn {
 	padding-left: 0px;
@@ -145,6 +136,10 @@ body {
 
 #small-screen-slides .btn {
 	padding-left: 0px;
+	font-size:14px;
+}
+.scroll-screen .btn {
+	font-size:14px;
 }
 
 .scroll-side {
